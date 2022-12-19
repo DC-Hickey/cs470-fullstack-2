@@ -1,2 +1,13 @@
-# cs470-fullstack-2
-CS 470: Full Stack Development II
+# Final Reflection — CS 470: Full Stack Development II
+### Daniel Hickey, 12.18.22
+[Final Presentation](https://youtu.be/eSJo-MisHt0)
+
+> Experiences and Strengths: Explain how this course will help you in reaching your professional goals.
+
+Fullstack I & II both helped me gain confidence as a developer by bridging the various concepts I’ve learned through courses and experiences during my time with SNHU. This course in particular taught me the strengths of the serverless cloud, how to migrate an application to the cloud, and how to secure cloud applications on AWS. Prior to this course I did not feel comfortable with web based development, and thought of myself as a backend developer with some front end experience, but during this course I was provided with my freelance opportunity to develop a website for a client and I accepted, because I was confident that I now had a strong enough understanding of web development to know where to start, what to research, what questions to ask the client, etc. I still have a lot of learning to do, but I now have the confidence to do that learning in the field.
+
+> Planning for Growth: Synthesize the knowledge you have gathered about cloud services.
+
+Cloud Services are an excellent opportunity for applications expecting to face significant growth over time or heavy fluctuations in usage. Serverless cloud services provide capacity elasticity; easy and even automatic scaling of the capacities of computing and storage services, up or down dependent on usage. This reduces the risks of over spending significantly, you can initially overestimate usage and buy more than needed, underestimate and need to buy more at a potentially different rate, or you could buy exactly what was needed initially and overtime it can suddenly plumet in usage and the rate would be the same as day one. Pair that with the pay-for-use model, paying for potentially fluctuating capacities based on what is used, and the cost becomes much more predictable than non-cloud service options.
+
+When considering migration, the resources of the client and potential time limitations need to be considered, as well as the level of certainty with usage predictions. If usage is unpredictable, or the needs of the client are intended for long use, serverless cloud provides flexibility in services and capacity that would be more beneficial for expansion. If usage is highly likely to remain consistent with their predicted metrics, options like containerization and microservice development might be a more viable option if the client has the resources and infrastructure to run and maintain the servers. The cloud can also be used temporarily during the migration, allowing for a quick and exact translation between servers and the cloud service while new infrastructure is introduced.
